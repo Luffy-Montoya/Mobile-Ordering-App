@@ -1,0 +1,27 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link href="https://fonts.googleapis.com/css2?family=Smythe" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <p id="diner">Jimmy's Diner<p>
+            <p id="tagline">The best burgers and pizzas in town.<p>
+        </header>
+        <div id="items-container"></div>
+        <div id="order-container" class=""></div>
+        <div id="payment-modal" class="not-hidden hidden">
+            <button id="close-modal" data-complete="completeOrder">X</button>
+            <p id="modal-header">Enter card details</p>
+            <form id="form" name="form">
+                <input type="text" id="customer-name" placeholder="Enter your name" minlength="2" maxlength="20" required/>
+                <input type="text" id="credit-card"  placeholder="Enter card number" minlength="16" maxlength="16" required/>
+                <input type="text" id="cvv" placeholder="Enter CVV" maxlength="3" required/>
+                <p id="final-text">Your Total Today: <span id="final-price"></span></p>
+            <button id="placeOrderBtn" type="submit" data-place="placeOrder">Place Order</button>
+            </form>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
