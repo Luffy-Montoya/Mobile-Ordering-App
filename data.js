@@ -17,7 +17,7 @@ export const menuArray = [
         name: "Beer",
         ingredients: ["grain, hops, yeast, water"],
         price: 9,
-        image: "/Mobile Ordering App/beer.png",
+        image: "https://raw.githubusercontent.com/Luffy-Montoya/Mobile-Ordering-App/refs/heads/main/beer.png",
         id: 2
     }
 ] 
