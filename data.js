@@ -4,7 +4,7 @@ export const menuArray = [
         ingredients: ["pepperoni", "mushrom", "mozarella"],
         id: 0,
         price: 15,
-        image: "/Mobile Ordering App/pizza.png"
+        image: "/pizza.png"
     },
     {
         name: "Hamburger",
