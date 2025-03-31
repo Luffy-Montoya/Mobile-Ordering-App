@@ -76,6 +76,7 @@ header {
     font-size: 32px;
     font-family: inter;
     background: white;
+    text-align: center;
 }
 
 .additem:hover {
