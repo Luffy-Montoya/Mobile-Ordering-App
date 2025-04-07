@@ -52,7 +52,7 @@ function getMenu(menu){
                 <img class="image" src="${image}">
                 <div class="product">
                     <p class="name">${name}</p>
-                    <p class="ingredients">${ingredients}</p>
+                    <p class="ingredients">${ingredients.join(", ")}</p>
                     <p class="price">$${price}</p>
                 </div>
                 <button class="addItem" data-price="${price}" data-name="${name}">+</button>
