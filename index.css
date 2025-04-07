@@ -8,14 +8,13 @@ body {
     max-width: 600px;
     width: 100%;
     height: auto;
-    border: 1px solid rgb(150,150,150);
     font-family: Smythe;
     background: white;
 
 }
 
 header {
-    background-image: url("/headerIMG.png");
+    background-image: url("/Mobile Ordering App/headerIMG.png");
     background-size: cover;
     max-width: 600px;
     width: 100%;
@@ -35,7 +34,6 @@ header {
 }
 
 #items-container {
-    justify-items: center;
     display: block;
 }
 
@@ -44,7 +42,7 @@ header {
     height: 8em;
     border-bottom: 1px solid rgb(200,200,200);
     display: flex;
-    align-items: center;
+    margin: 2em auto 0 auto;
 }
 
 .image {
@@ -69,16 +67,14 @@ header {
 }
 
 .additem {
-    height: 50%;
-    width: 13%;
     margin-right: 0px;
     margin-left: auto;
+    margin-bottom: 1em;
     font-size: 2rem;
     font-weight: bold;
     border: none;
     font-family: inter;
     background: white;
-    text-align: center;
 }
 
 .additem:hover {
