@@ -83,12 +83,10 @@ header {
 
 .additem:hover {
     color: rgb(80,80,80);
-    border: 1px solid rgb(150,150,150);
 }
 
 .additem:active {
     color:  rgb(150,150,150);
-    border: 1px solid rgb(200,200,200);
 }
 
 #order-container {
