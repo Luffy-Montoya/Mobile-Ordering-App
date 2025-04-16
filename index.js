@@ -55,7 +55,7 @@ function getMenu(menu){
                     <p class="ingredients">${ingredients.join(", ")}</p>
                     <p class="price">$${price}</p>
                 </div>
-                <button class="addItem" data-price="${price}" data-name="${name}"><span class="plus">+</span></button>
+                <button class="addItem" data-price="${price}" data-name="${name}">+</button>
             </div>`
     }).join('')
 }
