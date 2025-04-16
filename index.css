@@ -67,7 +67,6 @@ header {
 }
 
 .additem {
-    display: inline;
     margin-right: 0px;
     margin-left: auto;
     margin-bottom: 1em;
@@ -80,7 +79,6 @@ header {
     width: 2em;
     height: 2em;
     align-self: center;
-    text-align: center;
 }
 
 .additem:hover {
