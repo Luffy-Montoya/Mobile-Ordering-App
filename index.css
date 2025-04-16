@@ -79,6 +79,8 @@ header {
     width: 2em;
     height: 2em;
     align-self: center;
+    color: black;
+    text-align: center;
 }
 
 .additem:hover {
