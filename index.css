@@ -81,11 +81,6 @@ header {
     align-self: center;
 }
 
-.plus {
-    margin: auto;
-    color: black;
-}
-
 .additem:hover {
     color: rgb(80,80,80);
 }
