@@ -79,6 +79,7 @@ header {
     width: 2em;
     height: 2em;
     align-self: center;
+    justify-content: center;
     color: black;
     text-align: center;
 }
