@@ -1,5 +1,5 @@
 html {
-    background: white;
+    background: rgb(240,240,240);
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: url("/headerIMG.png");
+    background-image: url("/Mobile Ordering App/headerIMG.png");
     background-size: cover;
     max-width: 600px;
     width: 100%;
@@ -72,9 +72,13 @@ header {
     margin-bottom: 1em;
     font-size: 2rem;
     font-weight: bold;
-    border: none;
+    border: 1px solid lightgray;
+    border-radius: 50%;
     font-family: inter;
     background: white;
+    width: 2em;
+    height: 2em;
+    align-self: center;
 }
 
 .additem:hover {
