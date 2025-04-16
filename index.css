@@ -67,7 +67,7 @@ header {
 }
 
 .additem {
-    display: block;
+    display: inline;
     margin-right: 0px;
     margin-left: auto;
     margin-bottom: 1em;
